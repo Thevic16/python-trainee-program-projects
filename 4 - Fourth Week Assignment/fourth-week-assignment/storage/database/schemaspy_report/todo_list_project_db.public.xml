@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<database name="todo_list_project_db" schema="public" type="PostgreSQL - 12.9 (Ubuntu 12.9-0ubuntu0.20.04.1)">
+   <sequences>
+      <sequence increment="1" name="status_id_status_seq" startValue="1"/>
+      <sequence increment="1" name="tag_id_tag_seq" startValue="1"/>
+      <sequence increment="1" name="task_id_task_seq" startValue="1"/>
+      <sequence increment="1" name="todo_id_todo_seq" startValue="1"/>
+   </sequences>
+   <tables>
+      <table name="status" numRows="5" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="true" defaultValue="nextval('status_id_status_seq'::regclass)" digits="0" id="0" name="id_status" nullable="false" remarks="" size="10" type="serial" typeCode="4">
+            <child column="id_status" foreignKey="task_fk2" implied="false" onDeleteCascade="false" schema="public" table="task"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="1" name="status_name" nullable="false" remarks="" size="15" type="varchar" typeCode="12"/>
+         <primaryKey column="id_status" sequenceNumberInPK="1"/>
+         <index name="status_pk" unique="true">
+            <column ascending="true" name="id_status"/>
+         </index>
+      </table>
+      <table name="tag" numRows="9" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="true" defaultValue="nextval('tag_id_tag_seq'::regclass)" digits="0" id="0" name="id_tag" nullable="false" remarks="" size="10" type="serial" typeCode="4">
+            <child column="id_tag" foreignKey="task_fk1" implied="false" onDeleteCascade="false" schema="public" table="task"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="1" name="tag_name" nullable="false" remarks="" size="255" type="varchar" typeCode="12"/>
+         <primaryKey column="id_tag" sequenceNumberInPK="1"/>
+         <index name="tag_pk" unique="true">
+            <column ascending="true" name="id_tag"/>
+         </index>
+         <index name="tag_tag_name_key" unique="true">
+            <column ascending="true" name="tag_name"/>
+         </index>
+      </table>
+      <table name="task" numRows="7" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="true" defaultValue="nextval('task_id_task_seq'::regclass)" digits="0" id="0" name="id_task" nullable="false" remarks="" size="10" type="serial" typeCode="4"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="1" name="id_todolist" nullable="false" remarks="" size="10" type="int4" typeCode="4">
+            <parent column="id_todo" foreignKey="task_fk0" implied="false" onDeleteCascade="false" schema="public" table="todo"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="2" name="title" nullable="false" remarks="" size="255" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="3" name="content" nullable="false" remarks="" size="255" type="varchar" typeCode="12"/>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="4" name="id_tag" nullable="false" remarks="" size="10" type="int4" typeCode="4">
+            <parent column="id_tag" foreignKey="task_fk1" implied="false" onDeleteCascade="false" schema="public" table="tag"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="5" name="id_status" nullable="false" remarks="" size="10" type="int4" typeCode="4">
+            <parent column="id_status" foreignKey="task_fk2" implied="false" onDeleteCascade="false" schema="public" table="status"/>
+         </column>
+         <primaryKey column="id_task" sequenceNumberInPK="1"/>
+         <index name="task_pk" unique="true">
+            <column ascending="true" name="id_task"/>
+         </index>
+      </table>
+      <table name="todo" numRows="3" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="true" defaultValue="nextval('todo_id_todo_seq'::regclass)" digits="0" id="0" name="id_todo" nullable="false" remarks="" size="10" type="serial" typeCode="4">
+            <child column="id_todolist" foreignKey="task_fk0" implied="false" onDeleteCascade="false" schema="public" table="task"/>
+         </column>
+         <column autoUpdated="false" defaultValue="null" digits="0" id="1" name="title" nullable="false" remarks="" size="255" type="varchar" typeCode="12"/>
+         <primaryKey column="id_todo" sequenceNumberInPK="1"/>
+         <index name="todo_pk" unique="true">
+            <column ascending="true" name="id_todo"/>
+         </index>
+         <index name="todo_title_key" unique="true">
+            <column ascending="true" name="title"/>
+         </index>
+      </table>
+   </tables>
+</database>

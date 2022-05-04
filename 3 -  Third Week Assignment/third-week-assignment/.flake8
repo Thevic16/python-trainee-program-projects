@@ -1,0 +1,2 @@
+[flake8]
+exclude = storage/, .git ,.gitignore, Pipfile, Pipfile.lock, README.md, __pycache__

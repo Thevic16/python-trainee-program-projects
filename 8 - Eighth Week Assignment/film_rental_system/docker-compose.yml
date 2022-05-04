@@ -1,0 +1,28 @@
+version: "3.9"
+
+services:
+  web:
+    container_name: flask_film_rental_system
+    image: flask_film_rental_system
+    build: .
+    env_file:
+      - .env
+    ports:
+      - "5000:5000"
+    depends_on:
+      - db
+
+  db:
+    image: postgres:13-alpine
+    volumes:
+      - pg_data:/postgres/data/
+    environment:
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=db-film-rental-system-week-8
+    ports:
+      - "7000:5432"
+
+
+volumes:
+  pg_data: {}

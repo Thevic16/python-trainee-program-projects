@@ -1,0 +1,8 @@
+[run]
+omit =
+    packages/test/*
+    packages/auxiliary/logger.py
+    */__init__.py
+
+
+ignore_errors = True
