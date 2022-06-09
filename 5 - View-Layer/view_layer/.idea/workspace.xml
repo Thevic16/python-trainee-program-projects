@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3274c520-5873-4195-b66d-5d1cfba21af5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/.idea/5 - Writing-Views.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/Pipfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/Pipfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/.idea/writing_views.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/custom_error/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/custom_error/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/custom_error/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/custom_error/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/custom_error/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/custom_error/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/custom_error/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/custom_error/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/return_error/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/return_error/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/return_error/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/return_error/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/return_error/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/return_error/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/return_error/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/return_error/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/simple_view/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/simple_view/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/simple_view/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/simple_view/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/simple_view/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/simple_view/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/simple_view/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/simple_view/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/writing_views/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/writing_views/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/writing_views/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/writing_views/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - Writing-Views/writing_views/writing_views/wsgi.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2AG9zkhyyJURbBwou4O4TbS9WBN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/victor/Documents/Software-Development/Trainee-Program-Python-Vgomez/5 - Django-first-app/mysite",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="view_layer" type="Python.DjangoServer" factoryName="Django server">
+      <module name="view_layer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="view_layer.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3274c520-5873-4195-b66d-5d1cfba21af5" name="Changes" comment="" />
+      <created>1654625319997</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654625319997</updated>
+      <workItem from="1654625321470" duration="12124000" />
+      <workItem from="1654696885026" duration="4155000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
